@@ -110,17 +110,6 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.btn2 {
-  padding: 0.75rem 1.5rem;
-  background: #FD4C5C;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 50px;
-  font-weight: bold;
-  transition: 0.3s ease;
-}
-
-
 footer {
   background: linear-gradient(to right, #FD4C5C, #FD2E5C);
   color: white;

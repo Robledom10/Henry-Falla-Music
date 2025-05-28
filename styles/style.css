@@ -2,45 +2,127 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", san
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+html, body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
   color: #333;
   background: #fff;
   line-height: 1.6;
-  
+  overflow-x: hidden;
 }
 
 .hero {
-  background: url('../images/angel.jpg') no-repeat center center/cover;
-  height: 100vh;
+  background: url('../assets/images/angel.jpg') no-repeat center center/cover;
+  height: 1242px;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .hero-title {
-  font-size: 5rem;
+  font-size: 200px;
   color: white;
 }
 
 .section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 4rem 10%;
-  gap: 2rem;
+
 }
 
 .section img {
-  width: 300px;
+  width: 420px;
+}
+
+.text {
+  max-width: 500px;
+}
+
+.text h2 {
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+
+.text .degraded-text {
+  background: linear-gradient(to left, #DA006F, #F74C52);
+  background-clip: text;
+  /* Usa el fondo como relleno del texto*/
+  -webkit-text-fill-color: transparent;
+  /* Hace que el texto sea transparente para mostrar el fondo */
+}
+
+.text p {
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  background: #FD4C5C;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #ff1f4d;
+}
+
+.reverse img {
+  width: 420px;
+}
+
+.section.full {
+  background: url('../assets/images/raptis.png') no-repeat center center/cover;
+  position: relative;
+  height: 555px;
+  display: flex;
+  color: white;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+
+.text2 {
+  max-width: 500px;
+  text-align: left;
+  padding: 2rem;
   border-radius: 20px;
 }
 
+.text2 h2 {
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+
+.text2 p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.btn2 {
+  padding: 0.75rem 1.5rem;
+  background: #FD4C5C;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+
 footer {
-  background: linear-gradient(to left, rgb(253, 46, 92), rgb(253, 76, 92));
+  background: linear-gradient(to right, #FD4C5C, #FD2E5C);
   color: white;
   padding: 3rem 10%;
 }
@@ -57,8 +139,20 @@ footer h4 {
   font-size: 1.2rem;
 }
 
+.line {
+  height: 2px;
+  border: none;
+  background: #FF6A76;
+  opacity: 0.5;
+  margin: 2rem 0;
+}
+
+
 .footer-note {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
   font-size: 0.9rem;
   opacity: 0.8;
+  color: white;
 }

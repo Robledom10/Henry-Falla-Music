@@ -83,7 +83,6 @@ body {
 
 .section.full {
   background: url('../assets/images/raptis.png') no-repeat center center/cover;
-  position: relative;
   height: 555px;
   display: flex;
   color: white;
